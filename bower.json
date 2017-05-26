@@ -1,0 +1,21 @@
+{
+  "name": "efecss",
+  "description": "an easy framework for animations",
+  "main": "gulpfile.js",
+  "authors": [
+    "Hugo Deiró <hugodeiro@gmail.com> (hdeiro.github.io)"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "animation",
+    "efecss"
+  ],
+  "homepage": "https://github.com/efecss/efecss",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
