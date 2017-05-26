@@ -1,0 +1,17 @@
+// Get all elements with data-efecss attributes
+[data-efecss] {
+  opacity: 0;
+  will-change: opacity, transform;
+  transform: translate3d(0, 0, 0);
+  animation-timing-function: $animation-timing-function;
+  animation-fill-mode: both;
+  animation-duration: $animation-duration;
+}
+
+// Disable all animations of the element and it child
+.efecss-disabled {
+  &, [data-efecss] {
+    animation: none !important;
+    opacity: 1 !important;
+  }
+}

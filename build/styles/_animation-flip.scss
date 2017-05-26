@@ -1,0 +1,27 @@
+//################################################################
+// Animation Keyframes
+//################################################################
+
+@keyframes flipInY {
+  0% {
+    opacity: 0;
+    transform: rotateY(90deg);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+//################################################################
+// Animations
+//################################################################
+
+.flipInY {
+  animation-name: flipInY;
+}
+
+.flipOutY {
+  animation-name: flipInY;
+  animation-direction: reverse;
+}

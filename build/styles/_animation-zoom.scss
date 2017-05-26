@@ -1,0 +1,42 @@
+//################################################################
+// Animation Keyframes
+//################################################################
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes zoomInBig {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+//################################################################
+// Animations
+//################################################################
+
+.zoomIn {
+  animation-name: zoomIn;
+}
+
+.zoomInBig {
+  animation-name: zoomInBig;
+}
+
+.zoomOut {
+  animation-name: zoomIn;
+  animation-direction: reverse;
+}

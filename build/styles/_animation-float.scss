@@ -1,0 +1,67 @@
+//################################################################
+// Animation Keyframes
+//################################################################
+
+@keyframes floatYDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes floatYUp {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes floatY {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(2px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-2px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+//################################################################
+// Animations
+//################################################################
+
+.floatY {
+  opacity: 1;
+  animation-iteration-count: infinite;
+  animation-name: floatY;
+}
+
+.floatYDown {
+  opacity: 1;
+  animation-iteration-count: infinite;
+  animation-name: floatYDown;
+}
+
+.floatYUp {
+  opacity: 1;
+  animation-iteration-count: infinite;
+  animation-name: floatYUp;
+}
